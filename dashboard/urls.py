@@ -8,10 +8,4 @@ urlpatterns = [
         views.dashboard_redirect,
         name="dashboard"
     ),
-
-     path(
-        "no-access/",
-        views.no_access,
-        name="no_access"
-    ),
 ]
